@@ -47,13 +47,18 @@ This project provides a visualization tool for comparing the performance of vari
 
 
 ## Gantt Chart
+![image](https://github.com/user-attachments/assets/0bf96893-b18b-4a78-9916-294a155b53d5)
+
 
 ## Timeline Chart
+![image](https://github.com/user-attachments/assets/9764d998-fde9-4e5b-85bb-a246aeabc755)
 
 ## Final Table
+![image](https://github.com/user-attachments/assets/c7a750bd-2d88-4341-9cb3-a128a1f51149)
 
 ## Algorithm Comparison Chart
+![image](https://github.com/user-attachments/assets/838f1739-a33f-40ae-9b0a-329e93dce975)
 
 ## Time Log
-
+https://github.com/user-attachments/assets/73b855a4-12c1-4f35-aead-5c8ed1d6c395
 
