@@ -60,5 +60,7 @@ This project provides a visualization tool for comparing the performance of vari
 ![image](https://github.com/user-attachments/assets/838f1739-a33f-40ae-9b0a-329e93dce975)
 
 ## Time Log
-https://github.com/user-attachments/assets/73b855a4-12c1-4f35-aead-5c8ed1d6c395
+
+https://github.com/user-attachments/assets/84fe3bdc-325e-4423-a68b-11bf0ee30fd5
+
 
