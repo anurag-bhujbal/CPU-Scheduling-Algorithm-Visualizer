@@ -40,13 +40,17 @@ This project provides a visualization tool for comparing the performance of vari
 3. **Select Algorithm:** Choose a scheduling algorithm from the dropdown menu.
 4. **Click "Calculate":** This will generate and display the charts and tables based on the input data.
 
-## Functions
+#Screenshots
+##Round Robin Chart
 
-### `showRoundRobinChart(outputDiv)`
+##Algorithm Comparison Chart
 
-Generates a line chart comparing metrics for Round Robin scheduling.
+##Gantt Chart
 
-```javascript
-function showRoundRobinChart(outputDiv) {
-    // Function implementation...
-}
+##Timeline Chart
+
+##Final Table
+
+##Time Log
+
+
