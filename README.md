@@ -41,15 +41,18 @@ This project provides a visualization tool for comparing the performance of vari
 4. **Click "Calculate":** This will generate and display the charts and tables based on the input data.
 
 # Screenshots
-## Round Robin Chart
+## Input Fields
+![image](https://github.com/user-attachments/assets/86f20ada-898d-4d34-b8c4-31aa54689f86)
 
-## Algorithm Comparison Chart
+
 
 ## Gantt Chart
 
 ## Timeline Chart
 
 ## Final Table
+
+## Algorithm Comparison Chart
 
 ## Time Log
 
