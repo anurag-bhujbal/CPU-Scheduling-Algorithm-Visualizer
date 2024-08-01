@@ -1,74 +1,52 @@
-CPU Scheduling Algorithm Visualization
-Overview
-This project visualizes the performance of various CPU scheduling algorithms. It includes functions to display Gantt charts, timeline charts, and performance comparison charts for different algorithms. The primary focus is on comparing completion time, turn around time, waiting time, response time, and context switches for each algorithm.
+# CPU Scheduling Algorithm Visualization
 
-Features
-Visualization of Gantt and timeline charts
-Performance comparison of various CPU scheduling algorithms
-Detailed charts for Round Robin scheduling with varying time quantums
-Prerequisites
-HTML
-CSS
-JavaScript
-Chart.js library for creating charts
-File Structure
-index.html: Contains the HTML structure and includes necessary scripts.
-styles.css: Contains the CSS styles for the visualization.
-scripts.js: Contains the JavaScript code to generate and display the charts.
-Functions
-showRoundRobinChart
-Generates a line chart comparing completion time, turn around time, waiting time, response time, and context switches for different time quantums in Round Robin scheduling.
+## Description
 
-javascript
-Copy code
+This project provides a visualization tool for comparing the performance of various CPU scheduling algorithms. It includes functionalities to display Gantt charts, timeline charts, and performance comparison charts. The focus is on comparing metrics like completion time, turn around time, waiting time, response time, and context switches across different algorithms and time quantums.
+
+## Features
+
+- Line chart visualization for Round Robin scheduling with varying time quantums
+- Bar chart comparison of different CPU scheduling algorithms
+- Detailed visualizations of Gantt charts, timeline charts, and time logs
+
+## Prerequisites
+
+- HTML
+- CSS
+- JavaScript
+- Chart.js library
+
+## Installation
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/your-username/cpu-scheduling-visualization.git
+    ```
+
+2. **Navigate to the project directory:**
+
+    ```bash
+    cd cpu-scheduling-visualization
+    ```
+
+3. **Open `index.html` in your preferred web browser.**
+
+## Usage
+
+1. **Open `index.html`** in your browser.
+2. **Input Process Details:** Enter the process times and other necessary details.
+3. **Select Algorithm:** Choose a scheduling algorithm from the dropdown menu.
+4. **Click "Calculate":** This will generate and display the charts and tables based on the input data.
+
+## Functions
+
+### `showRoundRobinChart(outputDiv)`
+
+Generates a line chart comparing metrics for Round Robin scheduling.
+
+```javascript
 function showRoundRobinChart(outputDiv) {
     // Function implementation...
 }
-showAlgorithmChart
-Generates a bar chart comparing completion time, turn around time, waiting time, and response time for different CPU scheduling algorithms.
-
-javascript
-Copy code
-function showAlgorithmChart(outputDiv) {
-    // Function implementation...
-}
-showOutput
-Displays the Gantt chart, timeline chart, final table, and time log. Additionally, it calls showRoundRobinChart and showAlgorithmChart based on the selected algorithm.
-
-javascript
-Copy code
-function showOutput(input, output, outputDiv) {
-    // Function implementation...
-}
-CPUScheduler
-Simulates the CPU scheduling process for various algorithms and generates the necessary data for visualization.
-
-javascript
-Copy code
-function CPUScheduler(input, utility, output) {
-    // Function implementation...
-}
-calculateOutput
-Main function triggered by the "Calculate" button. It initializes input, utility, and output objects, then calls CPUScheduler and showOutput.
-
-javascript
-Copy code
-function calculateOutput() {
-    // Function implementation...
-}
-How to Use
-Open index.html in a web browser.
-Enter the process details and select the scheduling algorithm.
-Click the "Calculate" button to visualize the output.
-Screenshots
-Round Robin Chart
-
-Algorithm Comparison Chart
-
-Gantt Chart
-
-Timeline Chart
-
-Final Table
-
-Time Log
