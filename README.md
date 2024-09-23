@@ -1,5 +1,8 @@
 # CPU Scheduling Algorithm Visualization
 
+## Live : https://schedsim.netlify.app/
+
+
 ## Description
 
 This project provides a visualization tool for comparing the performance of various CPU scheduling algorithms. It includes functionalities to display Gantt charts, timeline charts, and performance comparison charts. The focus is on comparing metrics like completion time, turn around time, waiting time, response time, and context switches across different algorithms and time quantums.
